@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+
+}
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+}
+/*Parte 1 (Header)*/
+hr {
+    border: 2px solid #F2308B;
+    background: #F2308B;
+    height: 20px;
+}
+header{
+    background-color: #FFF9F1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 60px;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo figure{
+    padding: 0%;
+    margin: 0;
+    display: inline-block;
+    width: 100px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.logo i{
+    padding: 10px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    color: white;
+    height: 15px;
+    margin-top: 25px;
+    display: none;
+}
+.redes{
+}
+.redes i{
+    font-size: 30px;
+    padding: 10px;
+
+}
+.navegacion{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navegacion ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.navegacion ul li{
+    margin: auto;
+    display:flex ;
+    justify-content: space-evenly;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.navegacion ul li a{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+/* Fin Parte 1 (Header)*/
+/* Parte 2*/
+.fondoart{
+    background-image: url(../IMG/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.Promos{
+ margin: auto;
+ justify-content: center ;
+ align-items: center;
+ width: 50%;
+ text-align: center;
+}
+.Promos h1{
+    color: white;
+}
+.Promos h3{
+    color: white;
+}
+.Promos a{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid palevioletred;
+    display: inline-block;
+    color: white;
+}
+.Promos a:hover{
+    background-color: palevioletred;
+}
+/* Fin Parte 2*/
+/* Parte 3*/
+.seccion3 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.productosscience{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    
+}
+.productosscience h2{
+    margin-top: 25px;
+}
+.velas{
+    width: 50%;
+    display: flex;
+}
+.velas:hover{
+    filter: opacity(.3);
+}
+.velas figure{
+    width: 100%;
+}
+.velas img{
+    width: 100%;
+    border: 5px solid green;
+    margin: auto;
+}
+/* Fin Parte 3*/
+/* Parte 4*/
+.fondos45{
+    background: #FFF9F1;
+}
+.parte4{
+    display: flex;
+    background: #FFF9F1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+h2{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+}
+.imagenparte4{
+    max-width: 600px;
+    border-radius: 20px;
+}
+.imagenparte4 figure{
+    width: 100%;
+}
+.imagenparte4 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.imagenparte4:hover{
+    filter: sepia(60%);
+}
+.vacantes{
+    max-width: 600px;
+    padding-left: 20px;
+    
+}
+/* Fin Parte 4*/
+/* Parte 5*/
+.seccion5{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 10px;
+}
+.art1{
+    width: 350px;
+    background-color: #FEE6A6;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.art1 figure{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.art1 figure img{
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: auto;
+}
+.art1 h3{
+    margin-bottom: 15px;
+}
+.art1 a{
+    background: palevioletred;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+/* Fin Parte 5*/
+/* Parte 6*/
+.seccion6{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+.fotosgeneral{
+    display: block;
+    width: 600px;
+}
+.fotosizquierdaarriba{
+    width: 600px;
+    height: 200px;
+    display: flex;
+}
+.fotosizquierdaarriba figure{
+    width: 300px;
+    display: flex;
+}
+.fotosizquierdaarriba figure img{
+    width: 100%;
+    display: flex;
+}
+.fotosizquierdaabajo{
+    width: 600px;
+    height: 200px;
+    display: flex;
+}
+.fotosizquierdaabajo figure{
+    width: 300px;
+    display: flex;
+}
+.fotosizquierdaabajo figure img{
+    width: 100%;
+    display: flex;
+}
+.fotosderecha{
+    display: flex;
+    width: 600px;
+    height: 405px;
+}
+.fotosderecha figure{
+width: 600px;
+height: 405px;
+}
+.fotosderecha figure img{
+    width: 100%;
+    height: 100%;}
+/* Fin Parte 6*/
+.flecha{
+    border: 2px solid gainsboro;
+    color: #F2308B;
+    border-radius: 50%;
+    background: white;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 3;
+    top: 90%;
+    left: 90%;
+}
+.flecha i{
+    color: #F2308B;
+}
+/* Footer*/
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+/* Fin Footer*/

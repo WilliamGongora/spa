@@ -1,0 +1,257 @@
+@media screen and (max-width: 450px){
+    .logo{
+        border: 2px solid red;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;        
+    }
+    .logo figure{
+        padding: 0%;
+        margin-left: 10px;
+        border: 2px solid black;
+        display: inline-block;
+        width: 100px;
+        margin-top: 20px;
+        
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+        border: 2px solid blue;
+        display: inline-block;
+    }
+    .logo i{
+        padding: 10px;
+        background-color: palevioletred;
+        border-radius: 5px;
+        color: white;
+        height: 15px;
+        margin-top: 45px;
+        display: flex;
+        margin-right: 10px;
+    }
+    .redes{
+        border: 2px solid blue;
+        margin: auto;
+        display: flex;
+    }
+    .redes i{
+        font-size: 30px;
+        padding: 10px;
+    }
+   
+   
+    .navegacion{
+    display: none;
+   }
+   .seccion3{
+    width: 100%;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+.productosscience{
+    width: 100%;
+    border: 2px solid rebeccapurple;
+    text-align: center;
+    padding: 0px;
+    
+}
+h2{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+}
+.productosscience h2{
+    margin-top: 25px;
+}
+.velas{
+    width: 100%;
+    border: 2px solid green;
+    display: flex;
+}
+.velas figure{
+    width: 100%;
+}
+.velas img{
+    width: 100%;
+    border: 2px solid red;
+    margin: auto;
+}
+.imagenparte4{
+   width: 100%;
+}
+
+.seccion6{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+}
+.fotosgeneral{
+    display: inline-block;
+    border: 2px solid lightskyblue;
+    width: 100%;
+}
+.fotosizquierdaarriba{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    border: 2px solid green;
+}
+.fotosizquierdaarriba figure{
+    display: inline-block;
+    width: 100%;
+    border: 2px solid green;
+}
+.fotosizquierdaarriba figure img{
+    display: inline-block;
+    width: 100%;
+    border: 2px solid green;
+  
+}
+.fotosizquierdaabajo{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    border: 2px solid blue;
+   
+}
+.fotosizquierdaabajo figure{
+    width: 100%;
+    display: inline-block;
+    border: 2px solid green;
+   
+}
+.fotosizquierdaabajo figure img{
+    width: 100%;
+    display: inline-block;
+    border: 2px solid green;
+  
+}
+.fotosderecha{
+    border: 2px solid black;
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+}
+.fotosderecha figure{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    border: 2px solid red;
+}
+.fotosderecha figure img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+}
+.Promos{
+    border: 2px solid green;
+    margin: auto;
+    justify-content: center ;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+   }
+
+
+    }
+
+@media screen and (max-width: 850px) and (min-width:480px){
+    .seccion3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .productosscience{
+        width: 100%;
+        border: 2px solid rebeccapurple;
+        text-align: center;
+        padding: 10px;
+    }
+    .productosscience p{
+        padding: 5px;
+    }
+    .velas{
+        width: 100%;
+        border: 2px solid green;
+        display: inline-block;
+        filter: opacity(.3);
+    }
+    .velas figure{
+        width: 100%;
+    }
+    .velas img{
+        width: 100%;
+        border: 5px solid green;
+        margin: auto;
+    }
+    .parte4{
+        justify-content: center;
+    }
+    .seccion5{
+        width: 500px;
+    }
+    .seccion6{
+       
+        border: 2px solid green;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column-reverse; 
+    }
+    .fotosgeneral{
+        border: 2px solid lightskyblue;
+        width: 100%;
+    }
+    .fotosizquierdaarriba{
+        width: 100%;
+        height: 250px;
+        border: 2px solid green;
+        display: flex;
+    }
+    .fotosizquierdaarriba figure{
+        width: 100%;
+        border: 2px solid green;
+        display: flex;
+    }
+    .fotosizquierdaarriba figure img{
+        width: 100%;
+        border: 2px solid green;
+        display: flex;
+    }
+    .fotosizquierdaabajo{
+        width: 100%;
+        height: 250px;
+        border: 2px solid blue;
+        display: flex;
+    }
+    .fotosizquierdaabajo figure{
+        width: 50%;
+        border: 2px solid green;
+        display: flex;
+    }
+    .fotosizquierdaabajo figure img{
+        width: 100%;
+        border: 2px solid green;
+        display: flex;
+    }
+    .fotosderecha{
+        border: 2px solid black;
+        display: flex;
+        width: 100%;
+        height: 405px;
+    }
+    .fotosderecha figure{
+    width: 100%;
+    height: 405px;
+    border: 2px solid red;
+    }
+    .fotosderecha figure img{
+        width: 100%;
+        height: 100%;
+        border: 2px solid red;
+    }
+}
